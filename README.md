@@ -1,24 +1,60 @@
-# Task Manager
+Task Manager (Full Stack)
 
-A full-stack task manager built with React and a Node/Express REST API.
+A full-stack task management application built with React and a Node/Express REST API.
 
-This project focuses on clean separation between frontend and backend, a small but extensible data model, and a polished, readable UI.
+This project demonstrates user authentication, protected routes, and user-specific data handling using JWT and MongoDB.
 
-## Live Demo
+The focuses on clean architecture, separation of concerns, and keeping the structure production-ready.
+
+Live Demo
+
 https://seren-task-manager.netlify.app
 
-## Backend API
+Backend API
+
 https://task-manager-api-032o.onrender.com
 
-## Features
-- Create and delete tasks
-- Optional task details
-- Persistent data with MongoDB
-- Clean, responsive UI
+Features
 
-## Tech Stack
-**Frontend:** React, CSS  
-**Backend:** Node.js, Express, MongoDB (Atlas)
+User registration and login
 
-## Notes
-The project intentionally avoids over-engineering while leaving room for features like authentication, editing tasks, and due dates.
+JWT-based authentication
+
+Protected API routes
+
+Create, delete and manage tasks
+
+Tasks linked to authenticated users
+
+Persistent data using MongoDB
+
+Clean, responsive UI
+
+Tech Stack
+
+Frontend:
+
+React
+
+CSS
+
+Backend:
+
+Node.js
+
+Express
+
+MongoDB (Atlas)
+
+Mongoose
+
+JSON Web Tokens (JWT)
+
+bcrypt
+
+Architecture Notes
+
+The frontend and backend are deployed separately (Netlify + Render).
+Authentication is handled via JWT stored client-side and sent in the Authorization header.
+
+All task operations are scoped to the authenticated user.
