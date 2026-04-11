@@ -1,6 +1,6 @@
 # Task Manager (Full Stack)
 
-A full-stack task management application built with React and a Node/Express REST API.
+A full-stack task management application with authentication and user-specific data handling, built using React, Node.js, Express, and MongoDB.
 
 It demonstrates user authentication, protected routes, and user-specific data handling using JWT and MongoDB. 
 
@@ -8,16 +8,21 @@ The focus is on clean architecture, separation of concerns, and keeping the stru
 
 ---
 
-
 ## Why I Built This
 
-I built this project to practice creating a full-stack application with authentication and user-specific data. I wanted to better understand how the frontend and backend connect, especially when handling secure data.
+I built this project to practice creating a full-stack application with authentication and user-specific data. I wanted to better understand how the frontend and backend interact, especially when handling secure data.
+
+
 
 ## Challenges
 
 One of the main challenges was getting authentication working properly across both the frontend and backend. I had to make sure JWT tokens were handled correctly and that users could only access their own data.
 
 I also ran into issues with state not updating properly after login and logout. Fixing this helped me better understand how data flows between the API and the UI.
+
+This experience improved my ability to debug full-stack issues and think more carefully about state and data flow.
+
+
 
 ## What I Learned
 
