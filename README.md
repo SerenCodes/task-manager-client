@@ -14,6 +14,8 @@ I built this project to practice creating a full-stack application with authenti
 
 
 
+
+
 ## Challenges
 
 One of the main challenges was getting authentication working properly across both the frontend and backend. I had to make sure JWT tokens were handled correctly and that users could only access their own data.
@@ -21,6 +23,8 @@ One of the main challenges was getting authentication working properly across bo
 I also ran into issues with state not updating properly after login and logout. Fixing this helped me better understand how data flows between the API and the UI.
 
 This experience improved my ability to debug full-stack issues and think more carefully about state and data flow.
+
+
 
 
 
