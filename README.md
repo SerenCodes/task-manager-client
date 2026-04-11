@@ -10,7 +10,7 @@ The focus is on clean architecture, separation of concerns, and keeping the stru
 
 ## Why I Built This
 
-I built this project to practice creating a full-stack application with authentication and user-specific data. I wanted to better understand how the frontend and backend interact, especially when handling secure data.
+I built this project to practice creating a full-stack application with authentication and user-specific data. I wanted to better understand how the frontend and backend work together, especially when handling secure data.
 
 
 
