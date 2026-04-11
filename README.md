@@ -8,6 +8,27 @@ The focus is on clean architecture, separation of concerns, and keeping the stru
 
 ---
 
+
+## Why I Built This
+
+I built this project to practice creating a full-stack application with authentication and user-specific data. I wanted to better understand how the frontend and backend connect, especially when handling secure data.
+
+## Challenges
+
+One of the main challenges was getting authentication working properly across both the frontend and backend. I had to make sure JWT tokens were handled correctly and that users could only access their own data.
+
+I also ran into issues with state not updating properly after login and logout. Fixing this helped me better understand how data flows between the API and the UI.
+
+## What I Learned
+
+- How to structure a full-stack application with clear separation of concerns  
+- How JWT authentication and protected routes work in practice  
+- Managing async API calls and state in React  
+- Debugging issues between frontend and backend  
+
+
+---
+
 ## Live Demo
 
 https://seren-task-manager.netlify.app
